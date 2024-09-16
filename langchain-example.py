@@ -3,7 +3,7 @@ import os
 from langchain_openai import ChatOpenAI
 
 # Set up OpenAI API key
-openai_api_key = 'xxxxxxxxxxxxxxx'
+openai_api_key = '<YOUR-API-KEY>'
 
 llm = ChatOpenAI(api_key=openai_api_key)
 
